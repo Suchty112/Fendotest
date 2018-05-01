@@ -1,0 +1,142 @@
+#lightbox_close{
+	display:block!important
+}
+#lightbox_close_inside{
+	display:none
+}
+#map_outer,#btn-alliance-new-mission,#btn-alliance-new-event,#build_new_building,#build_new_poi{
+	display:none
+}
+#map_outer {
+	width: 25%
+}
+#map {
+	height: 48vh
+}
+.map-expand-button {
+	display:none
+}
+#btn-group-mission-select{
+	margin-left:10px
+}
+#missions_outer{
+	height:49vh!important;
+	padding-left:0!important;
+	padding-right:10px!important;
+	margin-left:0px;
+	width:100%
+}
+#missions-panel-body{
+	height:48vh!important;
+	display:flex;
+	padding:0!important;
+	margin-right:-10px!important;
+	margin-top:0;
+	margin-left:0px;
+	overflow-y:hidden
+}
+div[id^=mission_list]{
+	display:inline-block;
+	width:100% !important;
+	padding:10px;
+	overflow:scroll
+}
+#missions{
+	margin-right:10px!important
+}
+#buildings_outer,#chat_outer,#radio_outer{
+	height:calc(49vh - 70px);
+	overflow:hidden;
+	overflow-y:hidden
+}
+#buildings>.panel-default{
+	height:100%;
+	margin-bottom:0
+}
+#building_panel_body,#chat_panel_body,#radio_panel_body{
+	height:calc(100% - 55px)!important;
+	max-height:100%!important;
+	padding-bottom:0!important;
+	width: 100%
+}
+#chat_outer>div,#radio>div,#radio_outer>div{
+	height:100%;
+	margin:0
+}
+#missions strong{
+	display:none!important
+}
+#missions.btn-group{
+	margin-left:11px
+}
+#buildings_outer,chat_outer,radio_outer{
+	padding-left:10px;
+	padding-right:0
+}
+#radio_outer{
+	padding-right:10px;
+	padding-left:0
+}
+#btn-alliance-new-mission{
+	margin-bottom:0!important
+}
+.alliance_true.btn-group{
+	float:right
+}
+#buildings{
+	height:calc(49vh - 70px);
+	overflow:hidden
+}
+#chat_panel_body{
+	background-image: url("chrome-extension://__MSG_@@extension_id__/images/berlin.png");
+	background-size:100%;
+	background-position:bottom;
+	background-repeat: no-repeat
+}
+#mission_list{
+	order:1;
+	overflow-x:hidden;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-left:10px
+}
+#mission_list_krankentransporte{
+	order:2;
+	overflow-x:hidden;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-left:10px
+}
+#mission_list_sicherheitswache{
+	order:5;
+	overflow-x:hidden;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-left:10px
+}
+#mission_list_alliance{
+	order:3;
+	overflow-x:hidden;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-left:10px
+}
+#mission_list_alliance_event{
+	order:4;
+	overflow-x:hidden;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-left:10px
+}
+#mission_chat_messages{
+	font-weight: bold
+}
+.footer{
+	display:none
+}
+hr{
+	display:none
+}
+#aaoTitle{
+	background:#5CB85C!important
+}

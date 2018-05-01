@@ -1,0 +1,116 @@
+head {
+  background-color: #505050;
+}
+
+body {
+  background-color: #505050;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+#save {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  color: white;
+  text-shadow: 3px 2px green;
+  font-weight: bold;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.info{
+  color: red;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.tabs {
+  width: 20em;
+  font-family: "lucida grande", sans-serif;
+}
+
+[role="tablist"] {
+  margin: 0 0 -.1em;
+  overflow: visible;
+}
+
+[role="tab"] {
+  position: relative;
+  margin: 0;
+  padding: .3em .5em .4em;
+  border: 1px solid hsl(219, 1%, 72%);
+  border-radius: .2em .2em 0 0;
+  box-shadow: 0 0 .2em hsl(219, 1%, 72%);
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  background: hsl(220, 20%, 94%);
+}
+
+[role="tab"]:hover::before,
+[role="tab"]:focus::before,
+[role="tab"][aria-selected="true"]::before {
+  position: absolute;
+  bottom: 100%;
+  right: -1px;
+  left: -1px;
+  border-radius: 0.2em 0.2em 0 0;
+  border-top: 3px solid hsl(20, 96%, 48%);
+  content: '';
+}
+
+[role="tab"][aria-selected="true"] {
+  border-radius: 0;
+  background: hsl(220, 43%, 99%);
+  outline: 0;
+}
+
+
+
+
+
+[role="tab"]:hover,
+[role="tab"]:focus,
+[role="tab"]:active {
+  outline: 0;
+  border-radius: 0;
+}
+
+[role="tab"]:hover::before,
+[role="tab"]:focus::before {
+  border-color: hsl(20, 96%, 48%);
+}
+
+[role="tabpanel"] {
+  height: 72vh;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  padding: .5em .5em .7em;
+  border: 1px solid black;
+  border-radius: 4px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

@@ -1,0 +1,78 @@
+#map_outer{
+	width:75%!important;
+	margin-left:0;
+	height:calc(100vh)!important
+}
+#map{
+	width:100%!important
+}
+#chat_outer,#radio_outer{
+	display:none
+}
+#missions_outer{
+	position:absolute;
+	left:75%;
+	width:25%!important;
+	margin:0;
+	padding-left:3%;
+	padding-top:10px
+}
+#missions{
+	height:20px
+}
+#missions-panel-body{
+	height:100%!important;
+	width:320px!important;
+	overflow-y:hidden;
+	margin:0!important;
+	padding:0!important
+}
+#mission_list{
+	display:none
+}
+#mission_list_krankentransporte{
+	display:none
+}
+#mission_list_sicherheitswache{
+	display:none
+}
+#mission_list_alliance{
+	display:none
+}
+#mission_list_alliance_event{
+	display:none
+}
+.missions-panel-head{
+	display:none!important
+}
+#buildings_outer{
+	position:absolute;
+	left:75%;top:40px;
+	width:calc(25% - 10px)!important;
+	overflow-y:hidden;
+	height:calc(100vh - 50px)!important;
+	padding:0;
+	margin-left:5px
+}
+#buildings>.panel-default{
+	height:100%;
+	margin-bottom:0;
+	padding-bottom:0
+}
+#building_panel_body{
+	position:absolute;
+	height:calc(100% - 50px)!important;
+	max-height:100%!important;
+	padding-bottom:0!important
+}
+#buildings{
+	height:100%;
+	overflow:hidden;
+	margin-bottom:5px
+}
+.footer{
+	display:none
+}
+hr{
+	display:none
+}

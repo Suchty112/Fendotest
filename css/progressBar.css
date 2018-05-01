@@ -1,0 +1,5 @@
+.progress-striped-inner-active{
+	opacity: 0.1;
+	background-size: 50px 100%;
+	background-image:url("chrome-extension://__MSG_@@extension_id__/images/progress.gif");
+}
