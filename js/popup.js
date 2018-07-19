@@ -47,7 +47,7 @@ function save_options() {
   var check15 = document.getElementById('antonSpecial').checked;
   var check16 = document.getElementById('forumExtender').checked;
   var check17 = document.getElementById('hideComplete').checked;
-  var check100 = document.getElementById('easterKlicker').checked;
+  //var check100 = document.getElementById('easterKlicker').checked;
   var check1001 = document.getElementById('response_1').innerText;
   var check1002 = document.getElementById('response_2').innerText;
   var check1003 = document.getElementById('response_3').innerText;
@@ -80,7 +80,7 @@ function save_options() {
     'option15': check15,
     'option16': check16,
     'option17': check17,
-    'option100': check100,
+    //'option100': check100,
     'option1001': check1001,
     'option1002': check1002,
     'option1003': check1003,
@@ -124,7 +124,7 @@ function restore_options() {
     'option15': false,
     'option16': false,
     'option17': false,
-    'option100': false,
+    //'option100': false,
     'option1001': '',
     'option1002': '',
     'option1003': '',
@@ -157,7 +157,7 @@ function restore_options() {
     document.getElementById('antonSpecial').checked = items.option15;
     document.getElementById('forumExtender').checked = items.option16;
     document.getElementById('hideComplete').checked = items.option17;
-    document.getElementById('easterKlicker').checked = items.option100;
+    //document.getElementById('easterKlicker').checked = items.option100;
     document.getElementById('response_1').innerText = items.option1001;
     document.getElementById('response_2').innerText = items.option1002;
     document.getElementById('response_3').innerText = items.option1003;

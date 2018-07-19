@@ -23,18 +23,33 @@ function hideAlliaBuildings() {
 }
 
 function noMap() {
-  var s = document.createElement('script');
-  s.src = chrome.extension.getURL("modules/noMapDesign.js");
-  s.onload = function() {
-    this.parentNode.removeChild(this);
-  };
-  (document.head || document.documentElement).appendChild(s);
+  if (document.getElementById('bigMapMenu') == null) {
+    var s = document.createElement('script');
+    s.src = chrome.extension.getURL("modules/noMapDesign.js");
+    s.onload = function() {
+      this.parentNode.removeChild(this);
+    };
+    (document.head || document.documentElement).appendChild(s);
 
-  var noMapPath = chrome.runtime.getURL("css/noMapDesign.css");
-  var styleElement = document.createElement("link");
-  styleElement.rel = "stylesheet";
-  styleElement.href = noMapPath;
-  document.getElementsByTagName('head')[0].appendChild(styleElement);
+    var noMapPath = chrome.runtime.getURL("css/noMapDesign.css");
+    var styleElement = document.createElement("link");
+    styleElement.rel = "stylesheet";
+    styleElement.href = noMapPath;
+    document.getElementsByTagName('head')[0].appendChild(styleElement);
+  } else {
+    var sNew = document.createElement('script');
+    sNew.src = chrome.extension.getURL("modules/noMapDesignNew.js");
+    sNew.onload = function() {
+      this.parentNode.removeChild(this);
+    };
+    (document.head || document.documentElement).appendChild(sNew);
+
+    var noMapPathNew = chrome.runtime.getURL("css/noMapDesignNew.css");
+    var styleElementNew = document.createElement("link");
+    styleElementNew.rel = "stylesheet";
+    styleElementNew.href = noMapPathNew;
+    document.getElementsByTagName('head')[0].appendChild(styleElementNew);
+  }
 }
 
 function antonSpecial() {

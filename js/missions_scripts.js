@@ -110,13 +110,13 @@ function progressBeauty() {
 }
 
 //Osterei klicker
-function easterKlick() {
+/*function easterKlick() {
   $('a').each(function() {
     if ($(this).is('[href*="easteregg"')) {
       document.querySelector('#missionH1 a').click();
     }
   });
-}
+}*/
 
 chrome.storage.local.get(null, function(result) {
   if (result.option2 == true) {
@@ -140,7 +140,7 @@ chrome.storage.local.get(null, function(result) {
   if (result.option11 == true) {
     progressBeauty();
   }
-  if (result.option100 == true) {
+  /*if (result.option100 == true) {
     easterKlick();
-  }
+  }*/
 });

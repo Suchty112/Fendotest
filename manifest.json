@@ -1,4 +1,6 @@
 {
+"update_url": "https://clients2.google.com/service/update2/crx",
+
    "browser_action": {
       "default_icon": "images/icon16.png",
       "default_popup": "popup.html"
@@ -44,6 +46,6 @@
    "manifest_version": 2,
    "name": "Fendos LSS Scripte",
    "permissions": [ "storage", "tabs", "activeTab", "https://www.leitstellenspiel.de/*" ],
-   "version": "1.0.0",
+   "version": "1.0.6",
    "web_accessible_resources": [ "css/noMapDesign.css", "css/main.css", "images/berlin.png", "css/MapDesign.css", "images/progress.gif", "css/progressBar.css", "css/chat.css", "js/missions.json", "modules/*" ]
 }
