@@ -4584,5 +4584,74 @@
       "name": "Polizei",
       "cars": ["4x MEK-Fahrzeug", "1x FüKw"]
     }]
+  },
+  "379": {
+    "patienten": "0",
+    "gefangene": "0",
+    "credits": "900",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["3x Löschfahrzeug", "1x Feuerwehrkran (20%)", "1x ELW 1", "1x Rüstwagen"]
+    }, {
+      "name": "Polizei",
+      "cars": ["1x Funkstreifenwagen"]
+    }]
+  },
+  "380": {
+    "patienten": "0",
+    "gefangene": "0",
+    "credits": "900",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["3x Löschfahrzeug", "1x Feuerwehrkran (20%)", "1x ELW 1", "1x Rüstwagen"]
+    }, {
+      "name": "Polizei",
+      "cars": ["1x Funkstreifenwagen"]
+    }]
+  },
+  "381": {
+    "patienten": "0",
+    "gefangene": "0",
+    "credits": "900",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["3x Löschfahrzeug", "1x Feuerwehrkran (20%)", "1x ELW 1", "1x Rüstwagen"]
+    }, {
+      "name": "Polizei",
+      "cars": ["1x Funkstreifenwagen"]
+    }]
+  },
+  "382": {
+    "patienten": "0",
+    "gefangene": "0",
+    "credits": "900",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["3x Löschfahrzeug", "1x Feuerwehrkran (20%)", "1x ELW 1", "1x Rüstwagen"]
+    }, {
+      "name": "Polizei",
+      "cars": ["1x Funkstreifenwagen"]
+    }]
+  },
+  "383": {
+    "patienten": "1",
+    "gefangene": "0",
+    "credits": "600",
+    "hiorgs": [{
+      "name": "Polizei",
+      "cars": ["1x Funkstreifenwagen"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["1x Rettungstransportwagen", "Notarzteinsatzfahrzeug (20%)"]
+    }]
+  },
+  "384": {
+    "patienten": "1",
+    "gefangene": "0",
+    "credits": "1100",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["2x Löschfahrzeug"]
+    }]
   }
 }

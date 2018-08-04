@@ -87,6 +87,13 @@ function hideComplete() {
   (document.head || document.documentElement).appendChild(s);
 }
 
+function externForum() {
+  chrome.storage.local.get(null, function(result) {
+    var value = result.option2008;
+    $("#alliance_li ul li:eq(3)").after('<li role="presentation" class="alliance_true"><a href="'+value+'" target="_blank">Externes Forum</a></li>');
+  });
+}
+
 chrome.storage.local.get(null, function(result) {
   if (result.option1 == true) {
     noMap();
@@ -108,5 +115,8 @@ chrome.storage.local.get(null, function(result) {
   }
   if (result.option17 == true) {
     hideComplete();
+  }
+  if (result.option18 == true) {
+    externForum();
   }
 });

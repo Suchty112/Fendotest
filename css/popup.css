@@ -40,6 +40,10 @@ body {
   -ms-transform: translate(-50%,-50%);
 }
 
+.value{
+  margin-left: 50px;
+}
+
 .info{
   color: red;
   font-weight: bold;

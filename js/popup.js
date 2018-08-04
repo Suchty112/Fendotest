@@ -47,6 +47,7 @@ function save_options() {
   var check15 = document.getElementById('antonSpecial').checked;
   var check16 = document.getElementById('forumExtender').checked;
   var check17 = document.getElementById('hideComplete').checked;
+  var check18 = document.getElementById('extAlli').checked;
   //var check100 = document.getElementById('easterKlicker').checked;
   var check1001 = document.getElementById('response_1').innerText;
   var check1002 = document.getElementById('response_2').innerText;
@@ -62,6 +63,7 @@ function save_options() {
   var check2005 = document.getElementById('theKey_5').value;
   var check2006 = document.getElementById('theKey_6').value;
   var check2007 = document.getElementById('theKey_7').value;
+  var check2008 = document.getElementById('value_1').value;
   chrome.storage.local.set({
     'option1': check1,
     'option2': check2,
@@ -80,6 +82,7 @@ function save_options() {
     'option15': check15,
     'option16': check16,
     'option17': check17,
+    'option18': check18,
     //'option100': check100,
     'option1001': check1001,
     'option1002': check1002,
@@ -94,7 +97,8 @@ function save_options() {
     'option2004': check2004,
     'option2005': check2005,
     'option2006': check2006,
-    'option2007': check2007
+    'option2007': check2007,
+    'option2008': check2008
   });
   on();
   setTimeout(function() {
@@ -124,6 +128,7 @@ function restore_options() {
     'option15': false,
     'option16': false,
     'option17': false,
+    'option18': false,
     //'option100': false,
     'option1001': '',
     'option1002': '',
@@ -138,7 +143,8 @@ function restore_options() {
     'option2004': '',
     'option2005': '',
     'option2006': '',
-    'option2007': ''
+    'option2007': '',
+    'option2008': ''
   }, function(items) {
     document.getElementById('noMapDesign').checked = items.option1;
     document.getElementById('clickCounter').checked = items.option2;
@@ -157,6 +163,7 @@ function restore_options() {
     document.getElementById('antonSpecial').checked = items.option15;
     document.getElementById('forumExtender').checked = items.option16;
     document.getElementById('hideComplete').checked = items.option17;
+    document.getElementById('extAlli').checked = items.option18;
     //document.getElementById('easterKlicker').checked = items.option100;
     document.getElementById('response_1').innerText = items.option1001;
     document.getElementById('response_2').innerText = items.option1002;
@@ -172,6 +179,7 @@ function restore_options() {
     document.getElementById('theKey_5').value = items.option2005;
     document.getElementById('theKey_6').value = items.option2006;
     document.getElementById('theKey_7').value = items.option2007;
+    document.getElementById('value_1').value = items.option2008;
   });
 }
 

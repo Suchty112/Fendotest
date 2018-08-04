@@ -109,15 +109,6 @@ function progressBeauty() {
   document.getElementsByTagName('head')[0].appendChild(styleElement);
 }
 
-//Osterei klicker
-/*function easterKlick() {
-  $('a').each(function() {
-    if ($(this).is('[href*="easteregg"')) {
-      document.querySelector('#missionH1 a').click();
-    }
-  });
-}*/
-
 chrome.storage.local.get(null, function(result) {
   if (result.option2 == true) {
     clickCount();
@@ -140,7 +131,4 @@ chrome.storage.local.get(null, function(result) {
   if (result.option11 == true) {
     progressBeauty();
   }
-  /*if (result.option100 == true) {
-    easterKlick();
-  }*/
 });
