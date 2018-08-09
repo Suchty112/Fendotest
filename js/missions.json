@@ -4233,6 +4233,10 @@
         "cars": ["6x Löschfahrzeug", "1x Drehleiter", "2x ELW 1", "1x ELW 2", "2x Rüstwagen", "1x GW-Öl", "1x GW-Höhenrettung (50%)", "1x Feuerwehrkran"]
       },
       {
+        "name": "Polizei",
+        "cars": ["3x Funkstreifenwagen"]
+      },
+      {
         "name": "Rettungsdienst",
         "cars": ["evtl. Rettungstransportwagen", "Notarzteinsatzfahrzeug (75%)"]
       }
@@ -4476,7 +4480,7 @@
     "credits": "7500",
     "hiorgs": [{
       "name": "Feuerwehr",
-      "cars": ["15x Löschfahrzeug", "2x Schlauchwagen", "2x GW-Atemschutz", "4x Rüstwagen", "3x ELW 1", "1x ELW 2", "1x GE-Messtechnik"]
+      "cars": ["15x Löschfahrzeug", "3x Drehleiter", "2x Schlauchwagen", "2x GW-Atemschutz", "4x Rüstwagen", "3x ELW 1", "1x ELW 2", "1x GW-Messtechnik"]
     }, {
 
       "name": "Polizei",
@@ -4502,7 +4506,7 @@
     }, {
       "name": "Rettungsdienst",
       "cars": ["evtl. Rettungstransportwagen", "Notarzteinsatzfahrzeug (40%)", "Rettungshubschrauber (20%)"]
-      }]
+    }]
   },
   "370": {
     "patienten": "0",
@@ -4646,12 +4650,60 @@
     }]
   },
   "384": {
-    "patienten": "1",
+    "patienten": "0",
     "gefangene": "0",
     "credits": "1100",
     "hiorgs": [{
       "name": "Feuerwehr",
       "cars": ["2x Löschfahrzeug"]
     }]
+  },
+  "385": {
+    "patienten": "0 - 3",
+    "gefangene": "0",
+    "credits": "5100",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["4x Löschfahrzeug", "1x GW-Messtechnik", "1x GW-Gefahrgut", "1x GW-Atemschutz", "1x GW-Öl", "1x GW-Werkfeuerwehr", "1x Teleskopmast", "1x ELW1", "1x ELW2"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen", "Notarzteinsatzfahrzeug (20%)"]
+      }]
+  },
+  "386": {
+    "patienten": "0 - 5",
+    "gefangene": "0",
+    "credits": "5500",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["5x Löschfahrzeug", "1x GW-Gefahrgut", "1x GW-Atemschutz", "1x GW-Werkfeuerwehr", "1x Teleskopmast", "1x Turbolöscher", "1x ULF mit Löscharm", "2x ELW1", "1x ELW2"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen", "Notarzteinsatzfahrzeug (50%)"]
+      }]
+  },
+  "387": {
+    "patienten": "0 - 1",
+    "gefangene": "0",
+    "credits": "6500",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["8x Löschfahrzeug", "1x GW-Messtechnik", "1x GW-Gefahrgut", "1x GW-Atemschutz", "1x GW-Öl", "1x Dekon-P (20%)", "1x GW-Werkfeuerwehr", "1x Teleskopmast", "1x Turbolöscher", "1x ULF mit Löscharm", "1x ELW1"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen", "Notarzteinsatzfahrzeug (20%)"]
+      }]
+  },
+  "388": {
+    "patienten": "0 - 1",
+    "gefangene": "0",
+    "credits": "2500",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["5x Löschfahrzeug", "1x Drehleiter", "1x Rüstwagen", "1x ELW1"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen", "Notarzteinsatzfahrzeug (20%)"]
+      }]
   }
 }

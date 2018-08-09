@@ -4,7 +4,9 @@ function missionHelperNew() {
 
   var missions, i, j, x = "";
   var missionsLink = chrome.runtime.getURL("js/missions.json");
-  var missionId = $('#mission_help').attr('href').split("/").pop();
+  var missionId = $('#mission_help').attr('href').split("/").pop().split("?")[0];
+
+console.log(missionId);
 
   $.getJSON(missionsLink, function(data) {
     mission = data[missionId];
