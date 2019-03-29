@@ -1,3 +1,6 @@
+var version = chrome.runtime.getManifest().version;
+document.getElementById("versionnr").innerHTML = version;
+
 function on() {
   document.getElementById("overlay").style.display = "block";
 }

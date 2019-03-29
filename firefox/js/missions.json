@@ -144,8 +144,11 @@
     "gefangene": "0",
     "credits": "1010",
     "hiorgs": [{
+		"name": "Wasserbedarf",
+		"cars": ["Wasserbedarf: 800 Liter "]
+	},{
       "name": "Feuerwehr",
-      "cars": ["1x Löschfahrzeug"]
+      "cars": ["min. 1x Löschfahrzeug"]
     }]
   },
   "16": {
@@ -1452,8 +1455,13 @@
     "gefangene": "0",
     "credits": "2000",
     "hiorgs": [{
+		"name": "Wasserbedarf",
+		"cars": ["Wasserbedarf: 8000 Liter "]
+	},
+	
+	{
       "name": "Feuerwehr",
-      "cars": ["3x Löschfahrzeug", "1x Schlauchwagen (20%)", "1x ELW 1 (50%)", "min. 25 Feuerwehrleute"]
+      "cars": ["min. 1x Löschfahrzeug", "1x Schlauchwagen (20%)", "1x ELW 1 (50%)", "min. 25 Feuerwehrleute"]
     }]
   },
   "132": {
@@ -1461,8 +1469,11 @@
     "gefangene": "0",
     "credits": "5000",
     "hiorgs": [{
+		"name": "Wasserbedarf",
+		"cars": ["Wasserbedarf: 13000 Liter "]
+	},{
       "name": "Feuerwehr",
-      "cars": ["5x Löschfahrzeug", "1x Schlauchwagen", "1x ELW 1", "min. 40 Feuerwehrleute"]
+      "cars": ["min 1x Löschfahrzeug", "1x Schlauchwagen", "1x ELW 1", "min. 40 Feuerwehrleute"]
     }]
   },
   "133": {
@@ -1470,8 +1481,11 @@
     "gefangene": "0",
     "credits": "5100",
     "hiorgs": [{
+		"name": "Wasserbedarf",
+		"cars": ["Wasserbedarf: 13000 Liter "]
+	},{
         "name": "Feuerwehr",
-        "cars": ["5x Löschfahrzeug", "1x Schlauchwagen", "1x ELW 1", "min. 40 Feuerwehrleute"]
+        "cars": ["min 1x Löschfahrzeug", "1x Schlauchwagen", "1x ELW 1", "min. 40 Feuerwehrleute"]
       },
       {
         "name": "Polizei",
@@ -1576,7 +1590,7 @@
     "credits": "3600",
     "hiorgs": [{
         "name": "Feuerwehr",
-        "cars": ["4x Löschfahrzeug", "1x Schlauchwagen (20%)", "1x ELW 1 (20%)"]
+        "cars": ["4x Löschfahrzeug", "1x Schlauchwagen (20%)", "1x ELW 1 (20%)" , "min. 30 Feuerwehrleute"]
       },
       {
         "name": "Polizei",
@@ -2837,8 +2851,8 @@
     "gefangene": "0",
     "credits": "1200",
     "hiorgs": [{
-        "name": "Feuerwehr",
-        "cars": ["1x Löschfahrzeug"]
+        "name": "Polizei",
+        "cars": ["1x Funkstreifenwagen"]
       },
       {
         "name": "Rettungsdienst",
@@ -4472,6 +4486,9 @@
     "hiorgs": [{
       "name": "Polizei",
       "cars": ["6x Funkstreifenwagen", "4x SEK-Fahrzeug", "1x FüKw"]
+    },{
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen (Transportwahrscheinlichkeit 20%)", "Notarzteinsatzfahrzeug (10%)"]
     }]
   },
   "368": {
@@ -5132,7 +5149,221 @@
       "name": "Rettungsdienst",
       "cars": ["1x Rettungstransportwagen", "1x Notarzteinsatzfahrzeug (75%)"]
     }]
-  }
+	},
+	
+
+     "428": {
+    "patienten": "0",
+    "gefangene": "0",
+    "credits": "1500",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["1x Löschfahrzeug", "1x Drehleiter (50%)", "1x Rüstwagen (20%)", "1x ELW 1", " 1x Höhenrettung (5% )"  ]
+    }, {
+
+      "name": "Polizei",
+      "cars": ["1x Funkstreifenwagen"]
+    }]
+	
+	},
+	
+
+     "429": {
+    "patienten": "0 - 5",
+    "gefangene": "0",
+	"credits": "3100",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["5x Löschfahrzeug", "1x Drehleiter (70%)", "1x Schlauchwagen ", "1x GW-Atemschutz (50%)", "1x Rüstwagen (40%)", "1x ELW 1"  ]
+    }, {
+
+      "name": "Polizei",
+      "cars": ["2x Funkstreifenwagen"]
+    }, {
+      "name": "THW",
+      "cars": ["1x GKW","1x MTW-TZ", "1x BRmG R"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen (Transportwahrscheinlichkeit 70%", "Notarzteinsatzfahrzeug (40%)"]
+    }]
+	
+	},
+	
+
+     "430": {
+    "patienten": "0 - 20",
+    "gefangene": "0",
+	"credits": "7000",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["15x Löschfahrzeug", "1x Drehleiter" , " 2x Schlauchwagen ", "1x GW-Atemschutz ", "4x Rüstwagen ", "3x ELW 1", "1x ELW2", "2x Dekon-P", "2x GW-Messtechnik", "2x GW-Gefahrgut"]
+    }, {
+
+      "name": "Polizei",
+      "cars": ["8x Funkstreifenwagen"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen (Transportwahrscheinlichkeit 30%", "Notarzteinsatzfahrzeug (35%)"]
+    }]
+ 
+  },
+  "431": {
+    "patienten": "1",
+    "gefangene": "0",
+    "credits": "0",
+    "hiorgs": [{
+      "name": "Rettungsdienst",
+      "cars": ["1x Rettungstransportwagen", "1x Notarzteinsatzfahrzeug (20%)"]
+    }]
+	
+	},
+  "432": {
+    "patienten": "0-2",
+    "gefangene": "0",
+    "credits": "1700",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["2x Löschfahrzeug", "1x Drehleiter" ,"1x Rüstwagen ", "1x ELW 1"]
+    }, {
+
+      "name": "Polizei",
+      "cars": ["2x Funkstreifenwagen"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen (Transportwahrscheinlichkeit 10%", "Notarzteinsatzfahrzeug (10%)"]
+    }]
+	
+	},
+  "433": {
+    "patienten": "0-10",
+    "gefangene": "0",
+    "credits": "6000",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["10x Löschfahrzeug", "3x Drehleiter" ,"2x Rüstwagen ", "3x ELW 1" , "1xELW 2" , "1x GW-Messtechnik (30%)" ,"1x GW-Gefahrgut (10%)"]
+    }, {
+
+      "name": "Polizei",
+      "cars": ["5x Funkstreifenwagen"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen (Transportwahrscheinlichkeit 70%", "Notarzteinsatzfahrzeug (50%)"]
+    }]
+	
+	},
+  "434": {
+    "patienten": "0-5",
+    "gefangene": "0",
+    "credits": "5800",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["12x Löschfahrzeug", "1x GW-Werkfeuerwehr" ,"4x Rüstwagen ", "3x ELW 1" , "1x ELW 2" ,"2x GW-Atemschutz", "1x GW-Messtechnik " ,"1x GW-Gefahrgut " ,"1x GW-Dekon-P ", "1x Feuerwehrkran (10%)" ]
+    }, {
+
+      "name": "Polizei",
+      "cars": ["3x Funkstreifenwagen"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen (Transportwahrscheinlichkeit 30%", "Notarzteinsatzfahrzeug (20%)"]
+    }]
+	
+	},
+  "435": {
+    "patienten": "0-5",
+    "gefangene": "0",
+    "credits": "6000",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["12x Löschfahrzeug", "1x GW-Werkfeuerwehr" ,"4x Rüstwagen ", "3x ELW 1" , "1x ELW 2" ,"2x GW-Atemschutz", "1x GW-Messtechnik " ,"1x GW-Gefahrgut " ,"1x GW-Dekon-P ", "1x Feuerwehrkran (10%)" , "1x ULF mit Löscharm", "1x Teleskopmast" ]
+    }, {
+
+      "name": "Polizei",
+      "cars": ["3x Funkstreifenwagen"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen (Transportwahrscheinlichkeit 30%) ", "Notarzteinsatzfahrzeug (20%)"]
+    }]
+	
+	},
+  "436": {
+    "patienten": "0",
+    "gefangene": "0",
+    "credits": "800",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["1x Löschfahrzeug" , "alternativ: RW oder GKW"]
+    }, {
+
+      "name": "Polizei",
+      "cars": ["1x Funkstreifenwagen"]
+    }]
+	
+	},
+  "437": {
+    "patienten": "1",
+    "gefangene": "0",
+    "credits": "400",
+    "hiorgs": [{
+       
+      "name": "Polizei",
+      "cars": ["2x Funkstreifenwagen"]
+   	
+	}, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen (Transportwahrscheinlichkeit 30%) ", "Notarzteinsatzfahrzeug (20%)"]
+    }]
+	
+	},
+  "438": {
+    "patienten": "2",
+    "gefangene": "0",
+    "credits": "2000",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["3x Löschfahrzeug" , "1x RW", "1x ELW1 ", "1x GW-Öl", "1x GW-Gefahrgut (10%)"]
+    },{
+       
+      "name": "Polizei",
+      "cars": ["2x Funkstreifenwagen"]
+   	
+	}, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen (Transportwahrscheinlichkeit 30%) ", "Notarzteinsatzfahrzeug (10%)"]
+    }]
+	
+	},
+	
+
+     "439": {
+    "patienten": "0 - 10",
+    "gefangene": "0",
+	"credits": "8000",
+    "hiorgs": [{
+      "name": "Feuerwehr",
+      "cars": ["18x Löschfahrzeug", "3x Drehleiter ", "1x Schlauchwagen ", "2x Feuerwehrkran", "2x Rüstwagen ", "5x ELW1", "2x ELW2" ]
+    }, {
+
+      "name": "Polizei",
+      "cars": ["10x Funkstreifenwagen"]
+    }, {
+      "name": "THW",
+      "cars": ["2x GKW","2x MTW-TZ", "2x BRmG R" , "2x LKW K9", "2x MzKW"]
+    }, {
+      "name": "Rettungsdienst",
+      "cars": ["evtl. Rettungstransportwagen (Transportwahrscheinlichkeit 70%", "Notarzteinsatzfahrzeug (50%)" , "Rettungshubschrauber 10%"]
+    }]
+	
+	},
+  "440": {
+    "patienten": "1",
+    "gefangene": "0",
+    "credits": "0",
+    "hiorgs": [{
+      "name": "Rettungsdienst",
+      "cars": ["1x Rettungstransportwagen (Transportwahrscheinlichkeit: 90%", "1x Notarzteinsatzfahrzeug (80%)", "Tragehilfe: 10%"]
+    }]
+	
+	}
   
   
   

@@ -87,6 +87,12 @@ div[id^=mission_list]{
 	height:calc(49vh - 70px);
 	overflow:hidden
 }
+#chat_panel_body{
+	background-image: url("chrome-extension://__MSG_@@extension_id__/images/berlin.png");
+	background-size:100%;
+	background-position:bottom;
+	background-repeat: no-repeat
+}
 #mission_list{
 	order:1;
 	overflow-x:hidden;
@@ -133,4 +139,8 @@ hr{
 }
 #aaoTitle{
 	background:#5CB85C!important
+}
+#search_input_field_missions{
+	width: 25%;
+	margin: 0px
 }

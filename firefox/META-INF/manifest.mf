@@ -2,15 +2,15 @@ Manifest-Version: 1.0
 
 Name: manifest.json
 Digest-Algorithms: MD5 SHA1 SHA256
-MD5-Digest: MTqXZ1yNGgSHwG3Nbt6nZA==
-SHA1-Digest: kGwjEkgHuer9Z9TnQJatJjRiqLo=
-SHA256-Digest: Ugu0WESuHyUF6YiTvLZCFmFVuFgqAn+F2L+eUJCOnfg=
+MD5-Digest: RKXSY/0s8hF8jvacei0khQ==
+SHA1-Digest: iZC0f5scFoEc4FUAY2pKc5C9Pls=
+SHA256-Digest: K1Zto+cgTENRs+OPPOhOZCwpvdWBGzG9dr1vjpb/ChY=
 
 Name: popup.html
 Digest-Algorithms: MD5 SHA1 SHA256
-MD5-Digest: WD3AldWeqU8Ckwp+3HEE8g==
-SHA1-Digest: DRK1qZEZKsdeN6C2A3tJr/kahKw=
-SHA256-Digest: FuKobMbUmElOOzVJkKq15gufvMcoKdTdwzpn25y7FpE=
+MD5-Digest: LeJWInLW1TgkalBEjfunzA==
+SHA1-Digest: z/h1Rjp8GEbRMTx+NMBws+ZIslU=
+SHA256-Digest: bLdEEZJMekhoodRIEqwzsRbwV23Zud7Sd5QX1aAWTmQ=
 
 Name: css/chat.css
 Digest-Algorithms: MD5 SHA1 SHA256
@@ -32,9 +32,9 @@ SHA256-Digest: IiJI774co30bzlUB2PVpSQ4BscMfE1v+6XbwXwypm+8=
 
 Name: css/noMapDesign.css
 Digest-Algorithms: MD5 SHA1 SHA256
-MD5-Digest: UTczCG9tN70Yud4edYfkkg==
-SHA1-Digest: 63l2FR3c6JgXl64Tcy4gsde39ME=
-SHA256-Digest: GSm+fw0oDMzxc9K2O+cHGEql0AllK932aW6LGN61O5M=
+MD5-Digest: iUPnQW/A9cKKh1eDE8hkeQ==
+SHA1-Digest: CwnMf3coOl0Edsd0z4WNeC2exq0=
+SHA256-Digest: hjn4pQc8LgFoQbmkX3/ntH1/S8Z3RHUy9kr2uY4Ia2s=
 
 Name: css/noMapDesignNew.css
 Digest-Algorithms: MD5 SHA1 SHA256
@@ -128,9 +128,9 @@ SHA256-Digest: Jsa5fsfirMlmrLwv33FvcTLGKEGUjdqcMykMn6YSlEk=
 
 Name: js/missions.json
 Digest-Algorithms: MD5 SHA1 SHA256
-MD5-Digest: ZHBfHoaQMbA4qNXahFgLfA==
-SHA1-Digest: r/b5eUkyzg7zQzyxpwfKE+an5yE=
-SHA256-Digest: ygSwBzdbmbC4sfeOQHm2v6yfcq9EVjE797Q4t+LuIk0=
+MD5-Digest: q7352N7hE14dCsduZ+t1yQ==
+SHA1-Digest: 6ExocwKqopRYTWivayVr/74BLAU=
+SHA256-Digest: kMJ86o+vi/xE7rjVflK0OTvMSHav9jWV1wFL7B7AGtM=
 
 Name: js/missions_scripts.js
 Digest-Algorithms: MD5 SHA1 SHA256
@@ -140,9 +140,9 @@ SHA256-Digest: ruGkKBPUV23NOD7d0oHABDN0AO5P6qxyUZvdO8aSOxA=
 
 Name: js/popup.js
 Digest-Algorithms: MD5 SHA1 SHA256
-MD5-Digest: geR909Fwdg+Ky3VqKwbkgw==
-SHA1-Digest: lUlKJngnY3w8uMaZ7pe6eG6xEZQ=
-SHA256-Digest: JSO3DE9awwtI8YYf/mNLk7qoly1h/PwJUZ1q7Gb+ePg=
+MD5-Digest: Lpmi9zyVcCxl3b8GcYvlYQ==
+SHA1-Digest: +jgYp8Wn7WTdWbSO/2CBufTaYeY=
+SHA256-Digest: asVcE8WY682jy/lbojIMhcNglPaJiuT9olWNy9Uifpg=
 
 Name: js/vehicle_scripts.js
 Digest-Algorithms: MD5 SHA1 SHA256
@@ -236,9 +236,9 @@ SHA256-Digest: LTqoWlAAf0QWKVh7cykCFxcnCbvnNyxImCc8LhDGkA4=
 
 Name: modules/noMapDesign.js
 Digest-Algorithms: MD5 SHA1 SHA256
-MD5-Digest: fW1oTKU0MjIJXqSreIAGJQ==
-SHA1-Digest: C7YEnsmcy/3toiBkjOHt1g0BoWg=
-SHA256-Digest: OO/tXDycVk4EaO3o0/jGReHhxX+QWKaj0ljFnPoaBuU=
+MD5-Digest: xsQWEvgmWoxCJaBhIIqjDw==
+SHA1-Digest: EWGqulW1F8SWS6o7hfQwajv9N0s=
+SHA256-Digest: f6sczHHf84OuAEz4nkQDfMtSrhY3bzdkDO/9L5VxEUU=
 
 Name: modules/noMapDesignNew.js
 Digest-Algorithms: MD5 SHA1 SHA256

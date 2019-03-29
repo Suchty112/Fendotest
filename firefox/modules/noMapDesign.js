@@ -23,6 +23,10 @@ function noMap() {
     var movedAllianceCounter = $('#btn-group-mission-select').detach();
     $('#fendosLssScripteNavBar').append(movedAllianceCounter);
 
+    //Verschiebt den Verbandseinsätze Zähler in die Navbar
+    var movedSearchBar = $('#search_input_field_missions').detach();
+    $('#fendosLssScripteNavBar').append(movedSearchBar);
+
     //Minimap
     if (window.location.pathname === '/' && !(window.location.search != '')) {
       $('#fendosLssScripteNavBar').append('<button class="btn btn-xs btn-default" id="mapToggle_button" style="margin-left:10px">Minimap</button>');
